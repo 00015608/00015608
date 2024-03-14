@@ -1,16 +1,21 @@
-### Hi there 👋
+# Recipe App
 
-<!--
-**00015608/00015608** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is a simple recipe management application built with Node.js, Express, MongoDB, and EJS.
 
-Here are some ideas to get you started:
+## Features
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- View all recipes
+- Add a new recipe
+- Edit an existing recipe
+- Delete a recipe
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/00015608/00015608.git
+   ```
+
+npm install
+npm start

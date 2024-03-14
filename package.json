@@ -1,0 +1,24 @@
+{
+  "name": "webtech.cw2.15608",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.18.3",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.2.1",
+    "nodemon": "^3.1.0"
+  }
+}
