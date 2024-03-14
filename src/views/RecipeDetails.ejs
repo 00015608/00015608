@@ -1,0 +1,17 @@
+<% layout('boilarplate') %>
+<div class="container mt-4">
+  <h1><%= recipe.title %></h1>
+  <p>Description: <%= recipe.description %></p>
+  <p>Ingredients:</p>
+  <ul>
+    <% recipe.ingredients.forEach(ingredient => { %>
+    <li><%= ingredient %></li>
+    <% }); %>
+  </ul>
+  <p>Instructions: <%= recipe.instructions %></p>
+
+  <a href="/recipes/edit/<%= recipe._id %>">Edit</a>
+  <form method="post" action="/recipes/delete/<%= recipe._id %>">
+    <button class="btn btn-danger" type="submit">Delete</button>
+  </form>
+</div>
