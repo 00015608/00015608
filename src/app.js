@@ -14,7 +14,7 @@ app.use(express.static(path.join(process.cwd(), "src", "public")));
 app.use(methodOverride("_method"));
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/recipes", recipeController);
+app.use("/", recipeController);
 app.use(errorHandler);
 
 export default app;
