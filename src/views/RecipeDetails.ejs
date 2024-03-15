@@ -10,8 +10,8 @@
   </ul>
   <p>Instructions: <%= recipe.instructions %></p>
 
-  <a href="/recipes/edit/<%= recipe._id %>">Edit</a>
-  <form method="post" action="/recipes/delete/<%= recipe._id %>">
+  <a href="/edit/<%= recipe._id %>">Edit</a>
+  <form method="post" action="/delete/<%= recipe._id %>">
     <button class="btn btn-danger" type="submit">Delete</button>
   </form>
 </div>
