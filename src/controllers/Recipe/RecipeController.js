@@ -25,7 +25,7 @@ recipeController.get("/", getAllRecipes);
 
 recipeController.get("/new", renderNewRecipe);
 
-recipeController.post("/new", validateRecipe, createRecipe);
+recipeController.post("/new",  createRecipe);
 
 recipeController.post("/delete/:id", deleteRecipe);
 
