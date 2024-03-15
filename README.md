@@ -16,6 +16,14 @@ This is a simple recipe management application built with Node.js, Express, Mong
    ```bash
    git clone https://github.com/00015608/00015608.git
    ```
+2. **Install dependencies:**
 
-npm install
-npm start
+   ```bash
+   npm install
+   ```
+s. **Start App:**
+
+   ```bash
+   npm start
+   ```
+
