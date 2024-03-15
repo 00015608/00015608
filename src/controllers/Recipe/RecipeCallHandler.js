@@ -33,7 +33,7 @@ export async function createRecipe(req, res) {
     instructions,
   });
   await recipe.save();
-  res.redirect("/recipes");
+  res.redirect("/");
 }
 export async function renderEditForm(req, res) {
   console.log(req.params);
@@ -54,7 +54,7 @@ export async function updateRecipe(req, res) {
   if (!recipe) {
     throw new Error("Recipe not found");
   }
-  res.redirect("/recipes");
+  res.redirect(`/${recipe._id}`);
 }
 
 // DELETE a recipe by ID
@@ -63,5 +63,5 @@ export async function deleteRecipe(req, res) {
   if (!recipe) {
     throw new Error("Recipe not found");
   }
-  res.redirect("/recipes");
+  res.redirect("/");
 }
